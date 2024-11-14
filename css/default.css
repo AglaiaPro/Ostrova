@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Amatic+SC:wght@400;700&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body, html, * {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    top: 0;
+}
+
+/*DRAWING LOGO*/
+.loadScreen {
+    background-color: white;
+    position: fixed;
+    width: 100vW;
+    height: 100vh;
+    z-index: 1;
+    animation: anim 0.8s ease-in 1.8s;
+    animation-fill-mode: forwards;
+  }
+  .loadScreenForSecondPage {
+    background-color: white;
+    position: fixed;
+    width: 100vW;
+    height: 100vh;
+    z-index: 1;
+    animation: anim 0.8s ease-in 1.8s;
+    animation-fill-mode: forwards;
+  }
+  svg {
+    margin-top: 25vh;
+    z-index: 2;
+    width: 80%;
+    position: fixed;
+  }
+  #svgForSecondPage {
+    position: fixed;
+    margin-top: unset;
+  }
+  .path {
+    stroke-width: 1;
+    stroke: #000000;
+    fill:  transparent;
+    animation: dash 20s linear, fadeOut 2s ease-in 3s;
+    animation-fill-mode: forwards;
+    fill: rgba(255, 255, 255, 0.79);
+}
+.pathForSecondPage {
+  stroke-width: 1;
+  stroke: #000000;
+  fill:  transparent;
+  animation: dash2 20s linear, fadeOut 0.8s ease-in 1.8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes dash2 {
+  to {
+      stroke-dashoffset: 0;
+  }
+}
+@keyframes fadeOut {
+  to {
+    stroke: transparent;
+  }
+}
+@keyframes anim {
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,310 @@
+/* NAVIGATION */
+#navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.16);
+  }
+#navbar div {
+    display: flex;
+    width: 98%;
+    flex-flow: row-reverse;
+    top: 0;
+    overflow: hidden;
+  }
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    font-size: 28px; /**/
+    font-family: Alumni Sans;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #navbar a:hover {
+    color: rgb(221, 221, 221);
+  }
+  .block4 {
+    padding: 0 4%;
+  }
+  /* BLOCK1*/
+  .block1 {
+    background-image: url(../img/BGblock1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    top: 0;
+    align-items: center;
+  }
+  /* SEPARATOR */
+  .separator {
+    background-image: url(../img/pergament.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: Bellota;
+    font-size:  calc(14px + 6 * (100vw / 1440)); /**/
+    color: rgba(69, 33, 0, 1);
+  }
+  #separator1, #separator4 {
+    height: 64px;
+  }
+  #separator1 div img {
+    height: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .separator div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .separator div span {
+    width: 50%;
+    display: flex;
+  }
+  #leftFromCompas {
+    justify-content: end;
+  }
+  #separator2 {
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+  }
+  #separator2 span {
+    justify-content: center;
+  }
+  #separator3 {
+    height: 30px;
+  }
+/* BLOCK2 */
+.block2 {
+    background-image: url(../img/BGblock2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        height: 100vh;
+        color: white;
+        justify-content: center;
+}
+#infoBox h2 {
+    font-family: Bellota;
+    font-size: calc(30px + 10 * (100vw / 1440)); /*40*/
+    margin-bottom: 20px;
+}
+#infoBox p {
+    font-size:  calc(17px + 3 * (100vw / 1440)); /**/
+    font-family: Arsenal;
+}
+.block2 img {
+    height: 35px;
+    width: 169px;
+    margin: 30px 0;
+}
+#infoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  font-size: 20px; /**/
+  transform-origin: center;
+  transition: transform 1s ease, background-color 1s ease;
+}
+.openInfoBox {
+  background-color: rgba(69, 33, 0, 0.9);
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 14px;
+  max-width: 80%;
+  padding: 50px;
+}
+#hiddenInfo {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 80%;
+  transition: opacity 0.5s ease;
+}
+#hiddenInfo p {
+  width: unset;
+}
+.part1, .part2, .part3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  font-size: calc(12px + 6 * (100vw / 1440)); /**/
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.part1.show, .part2.show, .part3.show {
+  opacity: 1;
+  transform: translateY(0); 
+}
+/* BUTTON */
+.button {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    font-family: Amatic SC;
+    font-size: 28px; /**/
+    color: white;
+    padding: 10px 55px;
+}
+.button:hover {
+    background-color: white;
+    color: rgba(69, 33, 0, 1);
+    cursor: pointer;
+}
+/* BLOCK 3 */
+.block3 {
+    background-image: url(../img/BGblock3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        height: 100vh;
+        color: white;
+        justify-content: center;
+        font-family: Bellota;
+        font-weight: normal;
+}
+.block3 img {
+    height: 450px;
+}
+.block3 h2 {
+    font-size: calc(48px + 32 * (100vw / 1440)); /**/
+    color: rgba(255, 255, 255, 0.79);
+}
+.block3 p {
+    font-size: 22px; /**/
+    margin: 30px 0 50px 0;
+    text-align: start;
+    color: #EAEAEA;
+}
+.block3 p b {
+    color: white;
+}
+.block3 div {
+    display: flex;
+    justify-content: space-around;
+    max-width: 381px;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 20px;
+}
+/* BLOCK 4 */
+.block4 {
+    background-image: url(../img/BGblock4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        height: 100vh;
+        color: white;
+        justify-content: center;
+        font-family: Bellota;
+        font-weight: normal;
+}
+.block4 div {
+    background-color: rgba(69, 33, 0, 0.9);
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 14px;
+    padding: 3%;
+    height: 70vh;
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block4 img {
+    height: 280px;
+    padding: 0 25px;
+}
+.block4 div img{
+    height: 67px;
+}
+.block4 div h2 {
+    font-size: calc(22px + 26 * (100vw / 1440));; /**/
+    color: rgba(255, 255, 255, 0.79);
+}
+.block4 div p {
+    font-size: 20px; /**/
+    font-family: Arsenal;
+    font-weight: normal;
+    max-width: 304px;
+}
+.block4 div span {
+    font-size: calc(24px + 8 * (100vw / 1440)); /**/
+    font-family: Bellota;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#leftP {
+    margin: 30px 0;
+}
+#rightP {
+    margin: 30px 0 130px 0;
+}
+/* FOOTER */
+.block5 {
+    background-image: url(../img/BGblock5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        height: 100vh;
+        color: white;
+        justify-content: center;
+        font-family: Arsenal;
+        font-weight: normal;
+        font-size: calc(18px + 6 * (100vw / 1440)); /**/
+}
+.block5 div {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    align-items: center;
+    margin: 7px 0;
+}
+.block5 h2 {
+    font-family: Bellota;
+    font-size: 48px; /**/
+    margin-bottom: 15px;
+}
+.block5 div img {
+    height: 30px;
+    margin-right: 7px;
+}
+#instagram {
+    margin-top: 30px;
+}

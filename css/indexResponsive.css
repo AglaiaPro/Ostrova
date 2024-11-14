@@ -1,0 +1,83 @@
+@media screen and (max-width: 900px) { 
+    #infoBox {
+        width: 80%;
+    }
+    .openInfoBox {
+        padding: 5%;
+    }
+    .block2 img {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .burger {
+        display: block;
+    }
+    #navbar {
+        display: none;
+    }
+    .block4 img {
+        padding: 0 5px;
+    }
+    .block3 img {
+        display: none;
+    }
+    .separator div {
+        flex-direction: column;
+    }
+    #separator1 {
+        height: 110px;
+    }
+    #leftFromCompas, .separator div span {
+        justify-content: center;
+    }
+    .separator div span {
+        width: unset;
+    }
+    #separator1 div img {
+        margin: 5px 0;
+        height: 35px;
+    }
+    #hiddenInfo {
+        flex-direction: column;
+    }
+    .part1, .part2, .part3 {
+        width: unset;
+    }
+    .block2 {
+        height: unset;
+        padding: 5% 0;
+    }
+    .block4 {
+        flex-direction: column;
+        height: unset;
+        padding: 5% 0;
+    }
+    #deliveryDecoration {
+        content:url(../img/decorHorizontal.png);
+        width: 280px;
+        height: unset;
+    }
+    .block4 div {
+        height: unset;
+        width: 80%;
+        max-width: unset;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .block4 div p {
+        max-width: unset;
+    }
+}
+
+@media screen and (min-width: 1600px) { 
+    #infoBox, #hiddenInfo {
+        max-width: 1440px;
+    }
+}
+@media screen and (min-width: 1760px) { 
+    .block4 div {
+        width: 402px;
+    }
+}
