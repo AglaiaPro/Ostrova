@@ -40,6 +40,19 @@
     top: 0;
     align-items: center;
   }
+  .adt {
+    background-image: url(../img/adtBG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    max-width: 600px;
+  }
+  .adt div div img{
+    height: 56px;
+  }
   /* SEPARATOR */
   .separator {
     background-image: url(../img/pergament.png);

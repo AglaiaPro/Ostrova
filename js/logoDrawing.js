@@ -11,6 +11,7 @@ function logoPosition() {
     document.querySelector("svg").style.position = "unset";
     document.querySelector(".loadScreen").style.display = "none";
     document.querySelector("body").style.overflow = "scroll";
+    document.querySelector(".adt").style.display = "flex";
 }
 
 setTimeout(scrollPageToStart, 3500)
