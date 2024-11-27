@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) { 
+    .block12 {
+        position: relative; /* Для ограничения движения внутри блока */
+        width: 70%;
+        height: 50%;
+        overflow: hidden; /* Чтобы элемент не выходил за границы */
+        margin-bottom: 20px;
+    }
+    
+    .adt {
+        position: absolute;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transform: translate(-50%, -50%);
+        transition: transform 0.05s linear; /* Плавное движение */
+    }
+}
+
+/* FOR MOBILES */
+@media screen and (max-width: 768px) { 
+    .adt {
+        border: 3px solid transparent;
+        border-image: linear-gradient(90deg, #3498db, transparent, #3498db, transparent); 
+        border-image-slice: 3;
+        animation: dash-gradient 3s linear infinite;
+      }
+      
+      @keyframes dash-gradient {
+        0% {
+            border-image-source: linear-gradient(90deg, #3498db, transparent, #3498db, transparent);
+        }
+        100% {
+            border-image-source: linear-gradient(90deg, transparent, #3498db, transparent, #3498db);
+        }
+    }
+}

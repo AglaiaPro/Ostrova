@@ -40,6 +40,20 @@
     top: 0;
     align-items: center;
   }
+  .block11 {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .block12 {
+    height: 50vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
   .adt {
     background-image: url(../img/adtBG.png);
     background-position: center;
@@ -48,10 +62,60 @@
     display: flex;
     flex-flow: row;
     align-items: center;
-    max-width: 600px;
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+    height: 182px;
+    padding: 5px 50px;
+    color: rgba(69, 33, 0, 1);
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   }
-  .adt div div img{
-    height: 56px;
+  .adt div div img {
+    height: 40px;
+  }
+  .adt div div h3{
+    font-size: 26px;
+  }
+  .adt div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .adt div div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+  }
+  .adt div h3 {
+    font-family: Bellota;
+    font-size: 31px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .adt div span {
+    font-family: Arsenal;
+    font-size: 20px;
+    margin: 0 0 9px 0;
+    text-align: center;
+  }
+  #adtButton {
+    color: rgba(69, 33, 0, 1);
+    border-color: rgba(69, 33, 0, 1);
+  }
+  #adtButton:hover {
+    background-color: rgba(69, 33, 0, 1);
+    color: white;
+    border-color: white;
+  }
+  .line {
+    height: 130px;
+    width: 1px;
+    background-color: rgba(69, 33, 0, 1);
+    margin: 0 50px;
   }
   /* SEPARATOR */
   .separator {

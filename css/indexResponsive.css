@@ -71,6 +71,20 @@
     }
 }
 
+@media screen and (max-width: 768px) { 
+    .adt {
+        flex-direction: column;
+        width: 80%;
+        height: 30vh;
+        padding: 40px 10px; 
+        justify-content: space-evenly;
+    }
+    .line {
+        width: 130px;
+        height: 1px;
+    }
+}
+
 @media screen and (min-width: 1600px) { 
     #infoBox, #hiddenInfo {
         max-width: 1440px;
