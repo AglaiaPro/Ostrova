@@ -1,28 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Разметка с помощью микроданных, созданная Мастером разметки структурированных данных Google. -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <title>Острова | Вегетерианский ресторан с доставкой в Ереване</title>
     <meta name="description" content="Острова — новый ресторан вегетерианской кухни в Ереване. Мы предлагаем изысканные блюда, доставку и возможность бронирования. Погрузитесь в атмосферу уюта и вкуса!">
-    <!-- Разметка JSON-LD, созданная Мастером разметки структурированных данных Google. -->
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Restaurant",
-      "name": "Острова",
-      "telephone": "+374 41 041 102",
-      "email": "islands.am@yahoo.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "проспект Комитаса 23",
-        "addressLocality": "Ереван"
-      },
-      "menu": "https://aglaiapro.github.io/Ostrova/menu.html",
-      "servesCuisine": "ресторан вегетарианской кухни"
-    }
     </script>
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
@@ -36,7 +19,7 @@
 </head>
 <body>
     <div class="loadScreen"></div>
-    <main itemscope itemtype="http://schema.org/Restaurant">
+    <main>
         <div class="menu">
             <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
             <label for="burger-checkbox" class="burger"></label>
@@ -67,10 +50,6 @@
                         <h3>Бизнес-Ланч</h3>
                         <span><b>Пн-пт 12⁰⁰-16⁰⁰</b></span>
                         <span>Цена сета - <b>1 800</b> драм</span>
-                        <!--<div>
-                            <img src="img/hotIcon.png" alt="">
-                            <img src="img/breakfastIcon.png" alt="">
-                        </div>-->
                     </div>
                     <div class="line"></div>
                     <div>
@@ -90,7 +69,7 @@
         <div class="block2" id="about">
             <div id="infoBox">
                 <h2>О НАС</h2>
-                <p><span itemprop="name">Острова</span> - новый <span itemprop="servesCuisine">ресторан вегетарианской кухни</span>. Он удобно расположен на проспекте Комитаса (<a href="https://maps.app.goo.gl/GXXcb2sU6sWL6PRq6" target="_blank"><u>посмотреть на карте</u></a>) в Ереване, при этом надёжно изолирован от городской суеты, Вы словно перенесётесь на остров, с которого не захочется возвращаться.Вас встретит приветливый и доброжелательный персонал, который поможет погрузиться в ауру спокойствия и умиротворённости.Хотите отдохнуть со вкусом? Тогда приходите к нам!</p>
+                <p><span>Острова</span> - новый <span itemprop="servesCuisine">ресторан вегетарианской кухни</span>. Он удобно расположен на проспекте Комитаса (<a href="https://maps.app.goo.gl/GXXcb2sU6sWL6PRq6" target="_blank"><u>посмотреть на карте</u></a>) в Ереване, при этом надёжно изолирован от городской суеты, Вы словно перенесётесь на остров, с которого не захочется возвращаться.Вас встретит приветливый и доброжелательный персонал, который поможет погрузиться в ауру спокойствия и умиротворённости.Хотите отдохнуть со вкусом? Тогда приходите к нам!</p>
             </div>
             <img src="img/decorHorizontal.png" alt="" id="previous">
             <div id="hiddenInfo">
@@ -136,7 +115,7 @@
             <div>
                 <h2>МЕНЮ</h2>
                 <p>У нас вы отведаете <b>изысканные вегетерианские</b> блюда, имеются так же деликатесы для <b>веганов и сыроедов</b>.</p>
-                <a itemprop="menu" href="menu.html" class="button">
+                <a href="menu.html" class="button">
                     ПОДРОБНЕЙ
                 </a>
             </div>
@@ -163,9 +142,9 @@
         <div class="separator" id="separator3"></div>
         <div class="block5" id="contact">
             <h2>КОНТАКТЫ</h2>
-            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">Адрес: 
-                <span itemprop="addressLocality">Ереван</span>, 
-                <span itemprop="streetAddress">проспект Комитаса 23</span></span>
+            <span>Адрес: 
+                <span>Ереван</span>, 
+                <span>проспект Комитаса 23</span></span>
             <span>Часы работы: <b>12:00 - 21:00</b></span>
             <span>Маршрут от метро Барекамутюн до</br>ресторана - 15 минут пешком</span>
             <span><u><b><a href="https://maps.app.goo.gl/GXXcb2sU6sWL6PRq6" target="_blank">ПОКАЗАТЬ НА КАРТЕ</a></b></u></span>
@@ -175,11 +154,11 @@
             </div>
             <div>
                 <img src="img/phone.png" alt="">
-                <span itemprop="telephone">+374 41 041 102</span>
+                <span>+374 41 041 102</span>
             </div>
             <div>
                 <img src="img/mail.png" alt="">
-                <span itemprop="email">islands.am@yahoo.com</span>
+                <span>islands.am@yahoo.com</span>
             </div>
         </div>
         <div class="separator" id="separator4">
