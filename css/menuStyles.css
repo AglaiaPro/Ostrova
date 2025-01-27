@@ -28,7 +28,7 @@
 
    /* BLOCK1*/
    .block1 {
-    background-image: url(../img/menuPageTop.png);
+    background-image: url(../img/menuPageTop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,7 +96,7 @@
   }
 
   .separator{
-    background-image: url(../img/pergament.png);
+    background-image: url(../img/pergament.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +194,7 @@
   left: 0;
   width: 100vw;
   height: 100%;
-  background-image: url('../img/bgPageSalads.png');
+  background-image: url('../img/bgPageSalads.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -216,7 +216,7 @@
   left: 0;
   width: 100vw;
   height: 100%;
-  background-image: url('../img/menuBgPhoto.png');
+  background-image: url('../img/menuBgPhoto.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -238,7 +238,7 @@
   left: 0;
   width: 100vw;
   height: 100%;
-  background-image: url('../img/bgPageHot.png');
+  background-image: url('../img/bgPageHot.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -260,7 +260,7 @@
   left: 0;
   width: 100vw;
   height: 100%;
-  background-image: url('../img/bgPageDessert.png');
+  background-image: url('../img/bgPageDessert.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -282,7 +282,7 @@
   left: 0;
   width: 100vw;
   height: 100%;
-  background-image: url('../img/bgPageBreakfast.png');
+  background-image: url('../img/bgPageBreakfast.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -305,7 +305,7 @@
   left: 0;
   width: 100vw;
   height: 100%;
-  background-image: url('../img/bgPageDrinks.png');
+  background-image: url('../img/bgPageDrinks.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -396,7 +396,7 @@
 }
 
 .footer{
-  background-image: url(../img/bgImgMenuFooter.png);
+  background-image: url(../img/bgImgMenuFooter.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

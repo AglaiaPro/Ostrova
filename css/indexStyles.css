@@ -55,7 +55,7 @@
     display: flex;
   }
   .adt {
-    background-image: url(../img/adtBG.png);
+    background-image: url(../img/adtBG.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,7 +119,7 @@ box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   }
   /* SEPARATOR */
   .separator {
-    background-image: url(../img/pergament.png);
+    background-image: url(../img/pergament.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,7 +164,7 @@ box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   }
 /* BLOCK2 */
 .block2 {
-    background-image: url(../img/BGblock2.png);
+    background-image: url(../img/BGblock2.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -250,7 +250,7 @@ box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 /* BLOCK 3 */
 .block3 {
-    background-image: url(../img/BGblock3.png);
+    background-image: url(../img/BGblock3.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -291,7 +291,7 @@ box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 /* BLOCK 4 */
 .block4 {
-    background-image: url(../img/BGblock4.png);
+    background-image: url(../img/BGblock4.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -350,7 +350,7 @@ box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 /* FOOTER */
 .block5 {
-    background-image: url(../img/BGblock5.png);
+    background-image: url(../img/BGblock5.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
