@@ -92,7 +92,7 @@ box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   }
   .adt div h3 {
     font-family: Bellota;
-    font-size: 31px;
+    font-size: 24px; /*31*/
     font-weight: bold;
     text-align: center;
   }
@@ -115,7 +115,7 @@ box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     height: 130px;
     width: 1px;
     background-color: rgba(69, 33, 0, 1);
-    margin: 0 50px;
+    margin: 0 25px; /*50*/
   }
   /* SEPARATOR */
   .separator {
